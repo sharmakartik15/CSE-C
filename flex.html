@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        .parent{
+            border: 2px;
+            height: 640px;
+            width: 1050px;
+            display: flex;
+            padding: 20px;
+            justify-content: space-around;
+            margin-top: 10px;
+        }
+        .Box{
+            height: 550px;
+            width: 250px;
+            border: 2px solid black;
+            border-radius: 2rem;
+            margin-top: 10px;
+            text-align: center;
+            font-size: 2rem;
+            padding: 2rem;
+            background-color: azure;
+        }
+        button{
+            height: 50px;
+            width: 100px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="Box" id="Box-1">
+            <b>Basic</b>
+            <br><br>$10/ month
+            <br><br>Feature 1
+            <br><br>Feature 2
+            <br><br><button>Sign Up</button>
+        </div>
+        <div class="Box" id="Box-2">
+            <b>Premium</b>
+            <br><br>$30/month
+            <br><br>Feature 1
+            <br><br>Feature 2
+            <br><br>Feature 3
+            <br><br><button>Sign Up</button>
+        </div>
+        <div class="Box" id="Box-3">
+            <b>Pro</b>
+            <br><br>$30/month
+            <br><br>Feature 1
+            <br><br>Feature 2
+            <br><br>Feature 3
+            <br><br>Feature 4
+            <br><br><button>Sign Up</button>
+        </div>
+    </div>
+</body>
+</html>
